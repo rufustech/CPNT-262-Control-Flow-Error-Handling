@@ -6,9 +6,10 @@ A simple Node.js script that fetches NBA game data using the [API-Sports](https:
 
 ---
 
-## Challenge i encountered
+## Challenges the I encountered
 
 This challenge involved writing a script that fetches NBA game data from the API-Sports service. My primary goals were:
+
 1. **Fetch and display data**: Retrieve and display games data for the current day, it was very difficult to figure out the Documentation, took lots of hours to figure it our.
 2. **Handle errors gracefully**: Account for invalid API keys, missing data, and unexpected API responses.
 3. **Validate data**: Ensure the script processes only valid, expected data structures.
@@ -17,18 +18,21 @@ This challenge involved writing a script that fetches NBA game data from the API
 
 ## Problem-Solving Notes
 
-To meet the challenge, the following steps were taken:
+How I managed to resolve the challenges:
 
 1. **Fetch Implementation**:
+
    - Used `node-fetch` to make requests.
    - Integrated `dayjs` to dynamically fetch the current date.
 
 2. **Error Handling**:
-   - Checked for HTTP response errors using `response.ok`.
+
+   - I Checked for HTTP response errors using `response.ok`.
    - Threw detailed custom errors when issues were detected, such as "Error fetching or processing data:".
 
 3. **Data Validation**:
-   - Ensured the API response contained the necessary fields (`response`, `teams`, `scores`, `periods`) before processing.
+
+   - I Ensured the API response contained the necessary fields (`response`, `teams`, `scores`, `periods`) before processing.
    - Applied default empty values to handle missing fields gracefully.
 
 4. **Logging**:
@@ -40,6 +44,7 @@ To meet the challenge, the following steps were taken:
 ## Script Overview
 
 ### Features
+
 - **Dynamic Date Fetching**: Automatically fetches games for the current date.
 - **Custom Error Messages**: Provides user-friendly error messages for debugging.
 - **Data Validation**: Ensures valid and expected data before processing.
@@ -58,4 +63,5 @@ To meet the challenge, the following steps were taken:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nba-fetch-script.git
+   git clone https://github.com/rufustech/CPNT-262-Control-Flow-Error-Handling.git
+   ```
