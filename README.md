@@ -8,6 +8,8 @@ A simple Node.js script that fetches NBA game data using the [API-Sports](https:
 
 ## Challenges the I encountered
 
+### used try ... catch blocks, console.error
+
 This challenge involved writing a script that fetches NBA game data from the API-Sports service. My primary goals were:
 
 1. **Fetch and display data**: Retrieve and display games data for the current day, it was very difficult to figure out the Documentation, took lots of hours to figure it our.
@@ -65,3 +67,6 @@ How I managed to resolve the challenges:
    ```bash
    git clone https://github.com/rufustech/CPNT-262-Control-Flow-Error-Handling.git
    ```
+### Self Reflection
+
+- I learn a lot from this project I am better at using documentation, implementing APIs in projects, as well as error handling, giving proper descriptive information to the user.
